@@ -3,10 +3,6 @@
 #include <string.h>
 
 
-
-// students names and ID: 314977851 dor lasry, 208787366 tomer golan
-
-
 // prototypes:
 
 void printMenu();											//print the start menu 

@@ -261,4 +261,11 @@ class GameOfLife(game_of_life_interface.GameOfLife):  # This is the way you cons
 
 
 if __name__ == '__main__':  # You should keep this line for our auto-grading code.
-    pass
+    zmani = GameOfLife(100,1,'B3/S23',"",(0,0))
+    zmani.display_board()
+    # add 2 second delay so we can see first plot
+
+    for i in range(100):
+        zmani.update()
+        zmani.display_board()
+    zmani.save_board_to_file('last_tmuna.png')

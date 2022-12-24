@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-// students names and ID: 314977851 dor lasry, 208787366 tomer golan
-
 // prototypes:
 
 typedef struct serie {									//struct for every serie, contain its name, serie code, number of seasons, rank and array of watching
