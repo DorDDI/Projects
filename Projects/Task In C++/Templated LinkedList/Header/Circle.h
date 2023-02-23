@@ -1,8 +1,3 @@
-/* Assignment C++: 3
-   Author: Dor Lasry, ID: 314977851
-   Author: Tomer Golan, ID: 208787366
-*/
-
 
 #ifndef __CIRCLE_H					//define only once
 #define __CIRCLE_H
